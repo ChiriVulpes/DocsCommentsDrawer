@@ -1,9 +1,6 @@
 const style = document.createElement("style");
 style.id = "docs-comments-drawer-styles";
-style.textContent = `.docos-streampane-header {
-    display: none;
-}
-
+style.textContent = `
 .docs-titlebar-buttons .docs-docos-activitybox {
     height: 100vh !important;
     width: 680px;
@@ -17,7 +14,7 @@ style.textContent = `.docos-streampane-header {
 
 .docos-enable-docs-header .docos-stream-view {
     max-height: none;
-    height: 100%;
+    height: calc(100% - 51px);
     position: relative;
 }
 
