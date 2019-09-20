@@ -95,14 +95,6 @@ style.textContent = `.docos-streampane-header {
 	display: none !important;
 }
 
-/* Add more margin on the bottom */
-.kix-paginateddocumentplugin {
-    margin-bottom: calc(50vh - 100pt);
-}
-
-.kix-page-compact::before {
-    border-top: none;
-}
 
 .goog-inline-block.locked-visible > #docs-docos-commentsbutton {
     pointer-events: none;

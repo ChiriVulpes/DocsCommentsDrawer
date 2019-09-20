@@ -18,10 +18,6 @@ setInterval(() => {
 		}
 	}
 
-	// forces the stylesheet added by this extension to be used over google's normal stylesheet
-	const stylesheet = document.querySelector("[data-source='User JavaScript and CSS extension']");
-	if (stylesheet && stylesheet.nextElementSibling) document.head.appendChild(stylesheet);
-
 	// custom keyboard shortcuts
 	const editingIFrame = document.querySelector("iframe.docs-texteventtarget-iframe");
 	if (editingIFrame) {
